@@ -7,7 +7,7 @@ by Jeffery Myers is marked with CC0 1.0. To view a copy of this license, visit h
 
 */
 
-#include "raylib.h"
+#include "Proyect.h"
 
 #include "resource_dir.h"	// utility header for SearchAndSetResourceDir
 
@@ -35,7 +35,7 @@ int main ()
 		ClearBackground(BLACK);
 
 		// draw some text using the default font
-		DrawText("Hello Raylib", 200,200,20,WHITE);
+		DrawText("Hello ", 200,200,20,WHITE);
 
 		// draw our texture to the screen
 		DrawTexture(wabbit, 400, 200, WHITE);
